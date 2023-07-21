@@ -11,7 +11,7 @@
     width: 30px;
 }
 
-#gameboard div img{
+#gameboard div img {
     width: 100%;
     height: auto;
 }
@@ -19,3 +19,12 @@
 h3 {
     color: red;
 }
+/* not working consider just using 2 images for longer log
+#gameboard logR9,
+#gameboard logR3,
+#gameboard logL2,
+#gameboard logL6 {
+    flex: none;
+    width: 60px;
+    height: 30px;
+} */
