@@ -1,9 +1,18 @@
+/* causes issues for the moment. will also cause issues with headers etc revist later. */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
 #gameboard {
     border: 1.5px solid black;
     height: 450px;
     width: 330px;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 #gameboard div {
@@ -16,9 +25,25 @@
     height: auto;
 }
 
+.carL,
+.carR {
+    background-color: grey
+}
+
+.logL,
+.logR {
+    background-color: blue
+}
+
+.birdL,
+.birdR {
+    background-color: green
+}
+
 h3 {
     color: red;
 }
+
 /* not working consider just using 2 images for longer log
 #gameboard logR9,
 #gameboard logR3,
