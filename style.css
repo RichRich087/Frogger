@@ -6,7 +6,7 @@
     height: 100vh;
 } */
 
-#gameboard {
+.gameboard {
     border: 1.5px solid black;
     height: 450px;
     width: 330px;
@@ -15,41 +15,50 @@
 
 }
 
-#gameboard div {
+.gameboard div {
     height: 30px;
     width: 30px;
 }
 
-#gameboard div img {
+.gameboard div img {
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .carL,
 .carR {
-    background-color: grey
+    background-color: grey;
 }
 
 .logL,
 .logR {
-    background-color: blue
+    background-color: blue;
 }
 
 .birdL,
 .birdR {
-    background-color: green
+    background-color: green;
 }
+
+.frog {
+    background-image: url("images/frog1.png");
+    background-size: cover;
+    position: relative;
+    z-index: 3;
+}
+
+/* want to rotate the cars but not quite working */
+/* .carL.8,
+.carL.4,
+.carL.1,
+.PcarL.11,
+.PcarL.6,
+.PcarL.3 {
+    transform: rotate(180deg);
+} */
 
 h3 {
     color: red;
 }
-
-/* not working consider just using 2 images for longer log
-#gameboard logR9,
-#gameboard logR3,
-#gameboard logL2,
-#gameboard logL6 {
-    flex: none;
-    width: 60px;
-    height: 30px;
-} */
