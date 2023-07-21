@@ -1,0 +1,21 @@
+#gameboard {
+    border: 1.5px solid black;
+    height: 450px;
+    width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gameboard div {
+    height: 30px;
+    width: 30px;
+}
+
+#gameboard div img{
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    color: red;
+}
